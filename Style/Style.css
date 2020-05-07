@@ -1,0 +1,415 @@
+:root {
+    --saylani_blue: rgb(0, 82, 206);
+    --saylani_lightBlue: rgb(24, 117, 255);
+    --saylani_green: rgb(3, 228, 3);
+    --saylani_darkGreen: rgb(6, 112, 6);
+    --white: #ffffff;
+    --image_gradient: linear-gradient(to bottom, rgba(255, 255, 255, 0.73), rgba(111, 131, 246, 0.7));
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100% !important;
+    overflow-x: hidden !important;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.topSocialBar {
+    background-color: var(--saylani_blue);
+    text-align: center !important;
+}
+
+.topSocialBar div,
+.topSocialBar p {
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+
+.helpTag {
+    color: var(--white);
+    text-align: center;
+    font-size: 15px;
+}
+
+.socialIcons img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0px 1px;
+}
+
+.socialIcons img:hover {
+    border-radius: 0px;
+}
+
+.anchorButton {
+    padding: 3px;
+    font-size: 12px;
+    margin: 0px 1px;
+    border: 1px solid var(--white);
+    border-color: var(--saylani_blue);
+    color: var(--saylani_blue);
+    background-color: var(--white);
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.news {
+    background-color: var(--saylani_blue);
+    width: 95%;
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    height: 30px;
+    overflow: hidden;
+}
+
+.introSection {
+    padding: 50px 0px;
+    background-color: whitesmoke;
+}
+
+.heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.heading .intro,
+.heading .what {
+    color: var(--saylani_blue);
+}
+
+.heading .duction,
+.heading .are {
+    color: var(--saylani_darkGreen);
+}
+
+.introduction {
+    color: rgb(104, 104, 104);
+    text-align: justify;
+    font-size: 16px;
+}
+
+.introLogo {
+    text-align: center;
+}
+
+.introLogo span {
+    border: 3px solid var(--saylani_darkGreen);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.monthlyRecords {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--saylani_blue);
+    color: white;
+    padding: 25px 0px;
+}
+
+.recordsIcons {
+    width: 45px;
+    height: 45px;
+}
+
+.counFigure {
+    font-size: 50px;
+}
+
+.countTag {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.countTag span {
+    color: var(--saylani_green);
+}
+
+.whatWeAre {
+    padding: 50px 20px!important;
+    background-color: whitesmoke;
+}
+
+.cardSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    color: var(--saylani_lightBlue);
+    text-align: center;
+    padding: 30px 0px;
+    margin: 12px;
+    flex-grow: 1;
+    flex-basis: 300px;
+    box-shadow: 1px 6px 10px rgb(214, 214, 214);
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin: 0px auto 30px auto;
+}
+
+.projAndEvents {
+    padding: 40px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MisAndUpCPro {
+    flex-grow: 18;
+    flex-basis: 400px;
+}
+
+.upComingEvents {
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+.MisAndUpCPro h3 {
+    color: var(--saylani_lightBlue);
+    font-weight: bold;
+}
+
+.borderBottom {
+    border-top: 2px solid var(--saylani_darkGreen);
+    height: 10px;
+    width: 60px;
+}
+
+.miniCardSection {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.miniCard {
+    flex-grow: 1;
+    flex-basis: 300px;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: rgb(246, 246, 246);
+    padding: 18px 10px;
+    margin: 10px;
+}
+
+.miniCard span {
+    color: var(--saylani_lightBlue);
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.upComingEvents .events {
+    height: 210px;
+    width: 280px;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: rgb(129, 129, 129);
+    text-align: justify;
+}
+
+.upComingEvents h3 {
+    color: var(--saylani_lightBlue);
+    font-weight: bold;
+}
+
+.imageSection {
+    padding: 40px 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bgSize {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+    flex-basis: 280px;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.bgSize .icon {
+    background-color: rgba(24, 117, 255, .5);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+    text-align: center;
+}
+
+.bgSize .icon:hover {
+    background-color: white;
+    color: rgb(24, 117, 255);
+    cursor: pointer;
+}
+
+.image1 {
+    background-image: url("../Image/rashan2.jpg");
+}
+
+.image1:hover {
+    background-image: var(--image_gradient), url('../Image/rashan2.jpg');
+}
+
+.image2 {
+    background-image: url("../Image/food.jpg");
+}
+
+.image2:hover {
+    background-image: var(--image_gradient), url('../Image/food.jpg');
+}
+
+.image3 {
+    background-image: url("../Image/hazrat.jpg");
+}
+
+.image3:hover {
+    background-image: var(--image_gradient), url('../Image/hazrat.jpg');
+}
+
+.image4 {
+    background-image: url("../Image/rashan2.jpg");
+}
+
+.image4:hover {
+    background-image: var(--image_gradient), url('../Image/rashan2.jpg');
+}
+
+.image5 {
+    background-image: url("../Image/hazrat2.jpg");
+}
+
+.image5:hover {
+    background-image: var(--image_gradient), url('../Image/hazrat2.jpg');
+}
+
+.footer {
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(231, 231, 231);
+    padding: 50px;
+    z-index: -1;
+}
+
+.footerSection {
+    margin: 15px 0px;
+}
+
+.Contact {
+    flex-basis: 450px;
+    flex-flow: 1;
+}
+
+.Links {
+    flex-basis: 350px;
+    flex-flow: 1;
+}
+
+.Connections {
+    flex-basis: 350px;
+    flex-flow: 1;
+}
+
+.Connections h6 {
+    font-size: 22px !important;
+    padding-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Links span {
+    font-size: 20px !important;
+    border-bottom: 2px solid var(--saylani_green);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 40px 10px 40px;
+}
+
+.connects li {
+    display: inline-block;
+    background-color: var(--saylani_lightBlue);
+    width: 34px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.connects li:hover {
+    background-color: whitesmoke;
+    color: var(--saylani_lightBlue);
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+.Contact p {
+    padding-left: 42px;
+}
+
+.copyRight {
+    color: whitesmoke;
+    background-color: var(--saylani_lightBlue);
+    padding: 10px 50px;
+}
+
+
+/* ANIMATION */
+
+.newsLine {
+    position: relative;
+    animation: movingnews 30s infinite;
+    transition: ease-out;
+    width: 3000px;
+}
+
+@keyframes movingnews {
+    from {
+        right: -1200px
+    }
+    to {
+        right: 1150px;
+    }
+}
+
+.topButton {
+    position: fixed;
+    display: block;
+    position: relative;
+    border: 2px solid rgba(194, 196, 200, 0.644);
+    color: var(--saylani_lightBlue);
+    width: 60px;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.topButton:hover {
+    background-color: var(--saylani_lightBlue);
+    color: rgba(255, 255, 255, 0.911);
+}
